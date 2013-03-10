@@ -9,6 +9,7 @@
 #import "ABUzh.h"
 
 @interface ABUzh ()
+@property (nonatomic) CGSize virtualSize;
 @property (nonatomic) CGSize currentDirection;
 @property (nonatomic) NSMutableArray * points;
 @property (nonatomic) NSMutableArray * directions;
@@ -41,30 +42,37 @@
     return [[self.directions objectAtIndex:0] CGSizeValue];
 }
 
+- (CGPoint)movePoint:(CGPoint)point bySize:(CGSize)size times:(int)times
+{
+    return CGPointMake((int)(point.x + times*size.width + self.virtualSize.width)
+                       % (int)(self.virtualSize.width),
+                       (int)(point.y + times*size.height + self.virtualSize.height)
+                       % (int)(self.virtualSize.height));
+}
+
 - (CGPoint)nextHead:(BOOL)food
 {
     CGPoint point = [self head];
     CGSize direction = [self headDirection];
-    point.x += direction.width;
-    point.y += direction.height;
-    return point;
+    return [self movePoint:point bySize:direction times:1];
 }
 
 - (CGPoint)nextTail:(BOOL)food
 {
     CGPoint point = [self tail];
     CGSize direction = [self tailDirection];
-    if (!food)
-    {
-        point.x += direction.width;
-        point.y += direction.height;
-    }
-    return point;
+    if (food)
+        return point;
+    return [self movePoint:point bySize:direction times:1];
 }
 
 - (void)changeDirection:(CGSize)direction
 {
-    self.currentDirection = direction;
+    if (self.currentDirection.width + direction.width != 0
+        || self.currentDirection.height + direction.height != 0)
+    {
+        self.currentDirection = direction;
+    }
 }
 
 - (void)makeStep:(BOOL)food
@@ -83,6 +91,7 @@
 }
 
 - (id)initAtPoint:(CGPoint)point
+    inVirtualSize:(CGSize)virtualSize
         direction:(CGSize)direction
            length:(NSInteger)length
 {
@@ -90,23 +99,17 @@
     {
         self.points = [NSMutableArray array];
         self.directions = [NSMutableArray array];
+        self.virtualSize = virtualSize;
         
-        point.x += length * (-direction.width);
-        point.y += length * (-direction.height);
+        point = [self movePoint:point bySize:direction times:-length];
         self.currentDirection = direction;
         for (int i = 0; i < length; i++) {
             [self.points addObject:[NSValue valueWithCGPoint:point]];
             [self.directions addObject:[NSValue valueWithCGSize:direction]];
-            point.x += direction.width;
-            point.y += direction.height;
+            point = [self movePoint:point bySize:direction times:1];
         }
     }
     return self;
-}
-
-- (id)init
-{
-    return [self initAtPoint:CGPointZero direction:CGSizeMake(0, 1) length:1];
 }
 
 @end

@@ -23,6 +23,7 @@
 - (void)makeStep:(BOOL)food;
 
 - (id)initAtPoint:(CGPoint)point
+    inVirtualSize:(CGSize)virtualSize
         direction:(CGSize)direction
            length:(NSInteger)length;
 

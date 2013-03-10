@@ -89,13 +89,17 @@
 {
     if (self = [super initWithCoder:aDecoder])
     {
-        self.timer = [NSTimer timerWithTimeInterval:1/15. target:self selector:@selector(timerFire:) userInfo:nil repeats:YES];
+        self.timer = [NSTimer timerWithTimeInterval:1/25. target:self selector:@selector(timerFire:) userInfo:nil repeats:YES];
         [[NSRunLoop mainRunLoop] addTimer:self.timer forMode:NSDefaultRunLoopMode];
         
         self.virtualSize = CGSizeMake(self.bounds.size.width/4, self.bounds.size.height/4);
         self.drawingContext = [self createOffscreenContext:self.bounds.size];
         
-        self.uzh = [[ABUzh alloc] initAtPoint:CGPointMake(self.virtualSize.width/2,self.virtualSize.height/2) direction:CGSizeMake(0,-1) length:5];
+        CGPoint point = CGPointMake(self.virtualSize.width/2, self.virtualSize.height/2);
+        self.uzh = [[ABUzh alloc] initAtPoint:point
+                                inVirtualSize:self.virtualSize
+                                    direction:CGSizeMake(0,-1)
+                                       length:40];
         for (NSValue * value in [self.uzh allPoints])
             [self addPoint:value.CGPointValue withColor:[UIColor blackColor]];
         
