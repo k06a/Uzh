@@ -1,0 +1,63 @@
+
+
+   ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##   
+   ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##   
+
+
+
+     UU      UU    ZZZZZZZZZZ    HH      HH
+     UU      UU    ZZZZZZZZZZ    HH      HH
+     UU      UU    ZZZZZZZZZZ    HH      HH
+     UU      UU            ZZ    HH      HH
+     UU      UU            ZZ    HH      HH
+     UU      UU            ZZ    HH      HH
+     UU      UU          ZZ      HH      HH
+     UU      UU          ZZ      HH      HH
+     UU      UU          ZZ      HH      HH
+     UU      UU        ZZ        HHHHHHHHHH
+     UU      UU        ZZ        HHHHHHHHHH
+     UU      UU        ZZ        HHHHHHHHHH
+     UU      UU      ZZ          HH      HH
+     UU      UU      ZZ          HH      HH
+     UU      UU      ZZ          HH      HH
+     UU      UU    ZZ            HH      HH
+     UU      UU    ZZ            HH      HH
+     UU      UU    ZZ            HH      HH
+       UUUUUU      ZZZZZZZZZZ    HH      HH
+       UUUUUU      ZZZZZZZZZZ    HH      HH
+       UUUUUU      ZZZZZZZZZZ    HH      HH
+
+
+
+   ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##   
+   ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##   
+
+
+
+   ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##   
+   ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##   
+
+
+
+   b             aaaa   k    000   666
+   b            a    a  k   0  00 6
+   bbb  y  y   a  aa  a k k 0 0 0 6666   aa
+   b  b y  y   a a  a a kk  00  0 6   6 a  a
+   bbb   yyy   a  aa a  k k  000   666   aa a
+           y    a    
+         yy      aaaa
+
+         22222    00000     1     33333
+        2     2  0     0   11    3     3
+             2   0     0  1 1          3
+            2    0     0    1       333
+           2     0     0    1          3
+          2      0     0    1          3
+         2       0     0    1    3     3
+        2222222   00000   11111   33333
+
+
+
+   ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##   
+   ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##   
+
