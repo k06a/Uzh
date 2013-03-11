@@ -1,42 +1,64 @@
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    UU      UU
+    UU      UU
+    UU      UU                    HH
+    UU      UU                    HH
+    UU      UU                    HH
+    UU      UU                    HH
+    UU      UU                    HH
+    UU      UU     ZZZZZZZZZZ     HH
+    UU      UU     ZZZZZZZZZZ     HH
+    UU      UU             ZZ     HHHHHHHH
+    UU      UU             ZZ     HHHHHHHH
+    UU      UU           ZZ       HH      HH
+    UU      UU           ZZ       HH      HH
+    UU      UU         ZZ         HH      HH
+    UU      UU         ZZ         HH      HH
+    UU      UU       ZZ           HH      HH
+    UU      UU       ZZ           HH      HH
+    UU      UU     ZZ             HH      HH
+      UUUUUU       ZZ             HH      HH
+      UUUUUU       ZZZZZZZZZZ     HH      HH
+      UUUUUU       ZZZZZZZZZZ     HH      HH
+
+
+
+
+
+
+
+
+
+
+                       >
+
+
+
+
+
+
+
+
+
+   ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##
    ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##   
-   ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##   
-
-
-
-     UU      UU    ZZZZZZZZZZ    HH      HH
-     UU      UU    ZZZZZZZZZZ    HH      HH
-     UU      UU    ZZZZZZZZZZ    HH      HH
-     UU      UU            ZZ    HH      HH
-     UU      UU            ZZ    HH      HH
-     UU      UU            ZZ    HH      HH
-     UU      UU          ZZ      HH      HH
-     UU      UU          ZZ      HH      HH
-     UU      UU          ZZ      HH      HH
-     UU      UU        ZZ        HHHHHHHHHH
-     UU      UU        ZZ        HHHHHHHHHH
-     UU      UU        ZZ        HHHHHHHHHH
-     UU      UU      ZZ          HH      HH
-     UU      UU      ZZ          HH      HH
-     UU      UU      ZZ          HH      HH
-     UU      UU    ZZ            HH      HH
-     UU      UU    ZZ            HH      HH
-     UU      UU    ZZ            HH      HH
-       UUUUUU      ZZZZZZZZZZ    HH      HH
-       UUUUUU      ZZZZZZZZZZ    HH      HH
-       UUUUUU      ZZZZZZZZZZ    HH      HH
-
-
-
-   ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##   
-   ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##   
-
-
-
-   ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##   
-   ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##   
-
 
 
    b             aaaa   k    000   666
@@ -46,18 +68,4 @@
    bbb   yyy   a  aa a  k k  000   666   aa a
            y    a    
          yy      aaaa
-
-         22222    00000     1     33333
-        2     2  0     0   11    3     3
-             2   0     0  1 1          3
-            2    0     0    1       333
-           2     0     0    1          3
-          2      0     0    1          3
-         2       0     0    1    3     3
-        2222222   00000   11111   33333
-
-
-
-   ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##   
-   ##  ##  ##  ##  ##  ##  ##  ##  ##  ##  ##   
 

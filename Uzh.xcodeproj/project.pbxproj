@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2521EC5016EDA95D0061D5FE /* NSEnumerator+Linq.m in Sources */ = {isa = PBXBuildFile; fileRef = 2521EC4D16EDA95D0061D5FE /* NSEnumerator+Linq.m */; };
+		2521EC5116EDA95D0061D5FE /* NSKeyValuePair.m in Sources */ = {isa = PBXBuildFile; fileRef = 2521EC4F16EDA95D0061D5FE /* NSKeyValuePair.m */; };
+		2521EC5416EDB2C40061D5FE /* Uzh.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2521EC5316EDB2C40061D5FE /* Uzh.txt */; };
 		2561D20016EC4C3100B9D4CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2561D1FF16EC4C3100B9D4CE /* UIKit.framework */; };
 		2561D20216EC4C3100B9D4CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2561D20116EC4C3100B9D4CE /* Foundation.framework */; };
 		2561D20416EC4C3100B9D4CE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2561D20316EC4C3100B9D4CE /* CoreGraphics.framework */; };
@@ -23,6 +26,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2521EC4C16EDA95D0061D5FE /* NSEnumerator+Linq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSEnumerator+Linq.h"; path = "Submodules/NSEnumeratorLinq/NSEnumeratorLinq/NSEnumerator+Linq.h"; sourceTree = "<group>"; };
+		2521EC4D16EDA95D0061D5FE /* NSEnumerator+Linq.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSEnumerator+Linq.m"; path = "Submodules/NSEnumeratorLinq/NSEnumeratorLinq/NSEnumerator+Linq.m"; sourceTree = "<group>"; };
+		2521EC4E16EDA95D0061D5FE /* NSKeyValuePair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSKeyValuePair.h; path = Submodules/NSEnumeratorLinq/NSEnumeratorLinq/NSKeyValuePair.h; sourceTree = "<group>"; };
+		2521EC4F16EDA95D0061D5FE /* NSKeyValuePair.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSKeyValuePair.m; path = Submodules/NSEnumeratorLinq/NSEnumeratorLinq/NSKeyValuePair.m; sourceTree = "<group>"; };
+		2521EC5316EDB2C40061D5FE /* Uzh.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Uzh.txt; sourceTree = "<group>"; };
 		2561D1FC16EC4C3100B9D4CE /* Uzh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Uzh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2561D1FF16EC4C3100B9D4CE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2561D20116EC4C3100B9D4CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -59,9 +67,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2521EC4B16EDA9400061D5FE /* NSEnumeratorLinq */ = {
+			isa = PBXGroup;
+			children = (
+				2521EC4C16EDA95D0061D5FE /* NSEnumerator+Linq.h */,
+				2521EC4D16EDA95D0061D5FE /* NSEnumerator+Linq.m */,
+				2521EC4E16EDA95D0061D5FE /* NSKeyValuePair.h */,
+				2521EC4F16EDA95D0061D5FE /* NSKeyValuePair.m */,
+			);
+			name = NSEnumeratorLinq;
+			sourceTree = "<group>";
+		};
+		2521EC5216EDB2B90061D5FE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2521EC5316EDB2C40061D5FE /* Uzh.txt */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		2561D1F316EC4C3100B9D4CE = {
 			isa = PBXGroup;
 			children = (
+				2521EC4B16EDA9400061D5FE /* NSEnumeratorLinq */,
 				2561D20516EC4C3100B9D4CE /* Uzh */,
 				2561D1FE16EC4C3100B9D4CE /* Frameworks */,
 				2561D1FD16EC4C3100B9D4CE /* Products */,
@@ -98,6 +126,7 @@
 				2561D21716EC4C3100B9D4CE /* ABViewController.h */,
 				2561D21816EC4C3100B9D4CE /* ABViewController.m */,
 				2561D21A16EC4C3100B9D4CE /* ABViewController.xib */,
+				2521EC5216EDB2B90061D5FE /* Resources */,
 				2561D20616EC4C3100B9D4CE /* Supporting Files */,
 			);
 			path = Uzh;
@@ -174,6 +203,7 @@
 				2561D21416EC4C3100B9D4CE /* Default@2x.png in Resources */,
 				2561D21616EC4C3100B9D4CE /* Default-568h@2x.png in Resources */,
 				2561D21C16EC4C3100B9D4CE /* ABViewController.xib in Resources */,
+				2521EC5416EDB2C40061D5FE /* Uzh.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +219,8 @@
 				2561D21916EC4C3100B9D4CE /* ABViewController.m in Sources */,
 				2561D22716EC4EE900B9D4CE /* ABCanvasView.m in Sources */,
 				2561D22A16EC6F2500B9D4CE /* ABUzh.m in Sources */,
+				2521EC5016EDA95D0061D5FE /* NSEnumerator+Linq.m in Sources */,
+				2521EC5116EDA95D0061D5FE /* NSKeyValuePair.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
