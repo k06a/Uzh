@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2515E71C18950F42007CBEB9 /* ABPlayground.m in Sources */ = {isa = PBXBuildFile; fileRef = 2515E71B18950F42007CBEB9 /* ABPlayground.m */; };
 		2521EC5016EDA95D0061D5FE /* NSEnumerator+Linq.m in Sources */ = {isa = PBXBuildFile; fileRef = 2521EC4D16EDA95D0061D5FE /* NSEnumerator+Linq.m */; };
 		2521EC5116EDA95D0061D5FE /* NSKeyValuePair.m in Sources */ = {isa = PBXBuildFile; fileRef = 2521EC4F16EDA95D0061D5FE /* NSKeyValuePair.m */; };
 		2521EC5416EDB2C40061D5FE /* Uzh.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2521EC5316EDB2C40061D5FE /* Uzh.txt */; };
@@ -26,6 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2515E71A18950F42007CBEB9 /* ABPlayground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABPlayground.h; sourceTree = "<group>"; };
+		2515E71B18950F42007CBEB9 /* ABPlayground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABPlayground.m; sourceTree = "<group>"; };
 		2521EC4C16EDA95D0061D5FE /* NSEnumerator+Linq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSEnumerator+Linq.h"; path = "Submodules/NSEnumeratorLinq/NSEnumeratorLinq/NSEnumerator+Linq.h"; sourceTree = "<group>"; };
 		2521EC4D16EDA95D0061D5FE /* NSEnumerator+Linq.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSEnumerator+Linq.m"; path = "Submodules/NSEnumeratorLinq/NSEnumeratorLinq/NSEnumerator+Linq.m"; sourceTree = "<group>"; };
 		2521EC4E16EDA95D0061D5FE /* NSKeyValuePair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSKeyValuePair.h; path = Submodules/NSEnumeratorLinq/NSEnumeratorLinq/NSKeyValuePair.h; sourceTree = "<group>"; };
@@ -121,6 +124,8 @@
 				2561D20F16EC4C3100B9D4CE /* ABAppDelegate.m */,
 				2561D22816EC6F2500B9D4CE /* ABUzh.h */,
 				2561D22916EC6F2500B9D4CE /* ABUzh.m */,
+				2515E71A18950F42007CBEB9 /* ABPlayground.h */,
+				2515E71B18950F42007CBEB9 /* ABPlayground.m */,
 				2561D22516EC4EE800B9D4CE /* ABCanvasView.h */,
 				2561D22616EC4EE800B9D4CE /* ABCanvasView.m */,
 				2561D21716EC4C3100B9D4CE /* ABViewController.h */,
@@ -215,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2561D20C16EC4C3100B9D4CE /* main.m in Sources */,
+				2515E71C18950F42007CBEB9 /* ABPlayground.m in Sources */,
 				2561D21016EC4C3100B9D4CE /* ABAppDelegate.m in Sources */,
 				2561D21916EC4C3100B9D4CE /* ABViewController.m in Sources */,
 				2561D22716EC4EE900B9D4CE /* ABCanvasView.m in Sources */,
